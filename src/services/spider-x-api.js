@@ -7,7 +7,7 @@ exports.playAudio = async (search) => {
     throw new Error("Você precisa informar o que deseja buscar!");
   }
 
-  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "seu_token_aqui") {
+  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "DW2ApSsrUrDsOTW7IYHO") {
     throw new Error("Token da API do Spider X não configurado");
   }
 
@@ -25,7 +25,7 @@ exports.playVideo = async (search) => {
     throw new Error("Você precisa informar o que deseja buscar!");
   }
 
-  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "seu_token_aqui") {
+  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "DW2ApSsrUrDsOTW7IYHO") {
     throw new Error("Token da API do Spider X não configurado");
   }
 
@@ -43,7 +43,7 @@ exports.gpt4 = async (text) => {
     throw new Error("Você precisa informar o parâmetro de texto!");
   }
 
-  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "seu_token_aqui") {
+  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "DW2ApSsrUrDsOTW7IYHO") {
     throw new Error("Token da API do Spider X não configurado");
   }
 
@@ -62,7 +62,7 @@ exports.attp = async (text) => {
     throw new Error("Você precisa informar o parâmetro de texto!");
   }
 
-  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "seu_token_aqui") {
+  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "DW2ApSsrUrDsOTW7IYHO") {
     throw new Error("Token da API do Spider X não configurado");
   }
 
@@ -78,7 +78,7 @@ exports.welcome = async (text, description, imageURL) => {
     );
   }
 
-  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "seu_token_aqui") {
+  if (!SPIDER_API_TOKEN || SPIDER_API_TOKEN === "DW2ApSsrUrDsOTW7IYHO") {
     throw new Error("Token da API do Spider X não configurado");
   }
 
